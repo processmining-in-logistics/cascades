@@ -32,14 +32,14 @@ public class SegmentLevelEventDetection {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws IOException, ParseException {
-        File dir = new File("C:\\Users\\nlztoo\\Documents\\Vanderlande\\VL commity meeting\\7 day\\tracking table\\");
-//        File dir = new File("C:\\Users\\nlztoo\\Documents\\Vanderlande\\VL commity meeting\\test blockage detection\\");
+        File dir = new File("C:\\Users\\nlztoo\\Documents\\\\\\7 day\\tracking table\\");
+//        File dir = new File("C:\\Users\\nlztoo\\Documents\\\\\\test blockage detection\\");
 
         int c = 0;
         int trackingtablenumber = 1;
         for (File file : dir.listFiles()) {
             if (file.getName().contains("TRACKING")) {
-                BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\nlztoo\\Documents\\Vanderlande\\VL commity meeting\\7 day\\duration\\" + file.getName() + ".csv"));
+                BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\nlztoo\\Documents\\\\7 day\\duration\\" + file.getName() + ".csv"));
                 trackingtablenumber++;
                 HashMap<String, List> BagsMap = new HashMap<String, List>();
                 System.out.println(file.getName() );
