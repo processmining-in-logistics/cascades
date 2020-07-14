@@ -2,7 +2,7 @@
 
 ## Table of contents
 * [Overview](#Overview)
-* [System requirment](#system requirment)
-* [Guid to run](#Guid to run)
-* [Code Examples](#Code Examples)
+* [Systemrequirment](#system requirment)
+* [Guidtorun](#Guid to run)
+* [CodeExamples](#Code Examples)
 * [Contact](#contact)
