@@ -13,5 +13,8 @@ project description
 overview
 
 ## Guid_to_run
-*1
-*2
+###### Segment-level event detection
+###### System-level event detection
+###### Relation detection
+###### Cascade detection
+###### Subgraph mining
