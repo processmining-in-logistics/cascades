@@ -29,7 +29,7 @@ public class CascadeOfSyetemLevelEventDetection {
     public static void main(String[] args) throws IOException {
         BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\nlztoo\\Documents\\Tue\\paper is here\\spmf\\inputfor tkg 7 days dirksuggestionnew for bl cacadescorrectalaki.txt"));
         BufferedWriter writeractivityid = new BufferedWriter(new FileWriter("C:\\Users\\nlztoo\\Documents\\Tue\\paper is here\\spmf\\inputfor tkg 7 days dirksuggestion real segment name and id for blockage cascadescorrectalaki.txt"));
-//          BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\nlztoo\\Documents\\Vanderlande\\t3 9M data\\New folder\\full_converted\\EventLogWithCaseId\\10and11\\aaaaaa.csv"));
+//          BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\nlztoo\\Documents\\\\t3 9M data\\New folder\\full_converted\\EventLogWithCaseId\\10and11\\aaaaaa.csv"));
         Map<String, List<String>> nodeidactivitylinkmap = new LinkedHashMap<>();
         HashMap<String, String> inputmap = new HashMap<String, String>();
 
