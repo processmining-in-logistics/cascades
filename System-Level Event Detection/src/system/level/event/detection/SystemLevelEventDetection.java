@@ -28,9 +28,9 @@ public class SystemLevelEventDetection {
      */
     public static void main(String[] args) throws IOException, FileNotFoundException, ParseException {
 
-//        File dir = new File("C:\\Users\\nlztoo\\Documents\\Vanderlande\\t3 9M data\\New folder\\full_converted\\all duration of segments tracking tables\\23\\");
-        File dir = new File("C:\\Users\\nlztoo\\Documents\\Vanderlande\\VL commity meeting\\7 day\\duration\\");
-//        File dir = new File("C:\\Users\\nlztoo\\Documents\\Vanderlande\\test 2 m of data for SCM VL\\duration\\");
+//        File dir = new File("C:\\Users\\nlztoo\\Documents\\\\t3 9M data\\New folder\\full_converted\\all duration of segments tracking tables\\23\\");
+        File dir = new File("C:\\Users\\nlztoo\\Documents\\\\7 day\\duration\\");
+//        File dir = new File("C:\\Users\\nlztoo\\Documents\\\\test 2 m of data for SCM VL\\duration\\");
         int c = 0;
         int trackingtablenumber = 1;
         for (File file : dir.listFiles()) {
