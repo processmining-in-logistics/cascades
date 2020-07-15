@@ -25,5 +25,11 @@ You can use the available data set x. Where Each row indicates one case-level ev
 By applying source code System-Level Event Detection on the detected segment-level events you can detect the system-level events. We detect two types of system-level events and we call them Blockage and High load.
 
 ###### Relation detection
+
+We detect the related system-level events by considering temporal and spatial dimensions conditions. By applying source code System-Level Events Relation Detection on the detected system-level events you can detect the related system-level events.
+
 ###### Cascade detection
+
+
+
 ###### Subgraph mining
