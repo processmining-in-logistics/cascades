@@ -21,6 +21,9 @@ For detecting systematic behavior leading to dynamic bottlenecks we should follo
 You can use the available data set x. Where Each row indicates one case-level event and contains case id, activity name which is the location of the case in a system, and time stamp which is the time that cases started the activity. Case-level events are sorted by time. By applying source code Segment-Level Event Detection on the event log you can detect the segment-level events.
 
 ###### System-level events detection
+
+By applying source code System-Level Event Detection on the detected segment-level events you can detect the system-level events. We detect two types of system-level events and we call them Blockage and High load.
+
 ###### Relation detection
 ###### Cascade detection
 ###### Subgraph mining
