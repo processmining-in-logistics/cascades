@@ -75,7 +75,7 @@ public class BlockageDetection {
         double median;
         if (numArray.length % 2 == 0) {
 ////            System.out.println(numArray[numArray.length / 2]);
-            median = ((double) numArray[numArray.length / 2] + (double) numArray[numArray.length / 2 - 1]) / 2;
+            median = ((double) numArray[numArray.length / 2] + (double) numArray[numArray.length / 2 + 1]) / 2;
         } else {
             median = (double) numArray[numArray.length / 2];
         }
@@ -104,7 +104,7 @@ public class BlockageDetection {
         Arrays.sort(MADArray);
         double MAD;
         if (MADArray.length % 2 == 0) {
-            MAD = ((double) MADArray[MADArray.length / 2] + (double) MADArray[MADArray.length / 2 - 1]) / 2;
+            MAD = ((double) MADArray[MADArray.length / 2] + (double) MADArray[MADArray.length / 2 + 1]) / 2;
         } else {
             MAD = (double) MADArray[MADArray.length / 2];
         }
