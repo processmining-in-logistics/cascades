@@ -22,14 +22,18 @@ You can use the available data set x. Where Each row indicates one case-level ev
 
 ###### System-level events detection
 
-By applying source code System-Level Event Detection on the detected segment-level events you can detect the system-level events. We detect two types of system-level events and we call them Blockage and High load.
+By applying source code System-Level Event Detection on the detected segment-level events (events should be sorted by time) you can detect the system-level events. We detect two types of system-level events and we call them Blockage and High load. 
 
 ###### Relation detection
 
 We detect the related system-level events by considering temporal and spatial dimensions conditions. By applying source code System-Level Events Relation Detection on the detected system-level events you can detect the related system-level events.
 
+You can change the temporal and spatial conditions to the condition you want.
+
 ###### Cascade detection
 
-
+Detected related system-level events are the input for this step of word and source code ....
 
 ###### Subgraph mining
+
+For detecting frequent subgraphs we use TKG, which is a subgraph mining algorithm implemented by SPMF.
